@@ -1,8 +1,42 @@
-# React + Vite
+# 🧑‍💼 Employee Management System (React + Tailwind CSS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive **React** application for managing employees, with role-based dashboards (Admin & Employee), task assignment, and localStorage-based state management — all built with **Tailwind CSS** and **no page reloads**.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Click here to view the live project](https://your-vercel-link.vercel.app)
+
+## 🛠️ Tech Stack
+
+- React (Functional Components + Hooks)
+- Tailwind CSS
+- JavaScript (ES6+)
+- LocalStorage (for persistent state)
+
+## ✨ Features
+
+- 🔐 Login system for both **Admin** and **Employee** roles
+- 🌐 Single Page Application (SPA) – No page reloads
+- 🧑‍💼 **Admin Capabilities**:
+  - Create tasks
+  - Assign tasks to employees
+  - View all task statuses
+- 👨‍💻 **Employee Capabilities**:
+  - View assigned tasks
+  - Accept tasks
+  - Mark tasks as **Completed** or **Failed**
+- Persistent task & user data using `localStorage`
+- Tailwind-based responsive UI
+
+## 📸 Screenshots
+
+_(Add screenshots here if available)_
+
+## 📦 How to Run Locally
+
+```bash
+git clone https://github.com/Sannan144/Employee-Management-System.git
+cd Employee-Management-System
+npm install
+npm start
+
